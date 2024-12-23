@@ -1,0 +1,44 @@
+Enunciado:    
+“Sangucheto”- se trata de una aplicación web que permita manejar un stock de ingredientes, 
+que pueden ser ingredientes o agregados y los podes agregar a un sándwich del cual nos 
+interesará saber su precio. 
+
+[ CLASES: SANGUCHE, INGREDIENTE, LOCAL. ] 
+
+Clase en si: 
+
+[SANGUCHE: Precio, listaIngredientes
+INGREDIENTE: Cantidad, Precio
+]
+
+[ Un LOCAL (TIENE) stock de INGREDIENTES y (ARMA) SANGUCHES. ]
+
+Se debe brindar la siguiente lista de funcionalidades: 
+
+1. Armar un sangucheto a su gusto, se debe permitir agregar ingredientes y condimentos 
+por separado (que se descuentan del stock), y poder consultar el precio del sangucheto 
+a medida que se agregan cosas al mismo. Interesa ver por separado los ingredientes y 
+condimentos que forman parte del sándwich. En todo momento se debe poder cancelar, 
+que elimina todo lo agregado al sangucheto. 
+
+2. Listar todos los ingredientes disponibles. 
+
+3. Consultar el stock de todos los ingredientes del stock, tengan o no stock (es decir, los 
+ingredientes con cantidad 0 son incluidos).  
+
+4. Dar de alta un ingrediente (con cantidad en 0). 
+
+5. Agregar stock a determinado ingrediente, es decir se suma a lo que tiene. 
+
+6. Obtener el stock disponible de un determinado ingrediente. 
+
+7. Determinar la existencia de un determinado ingrediente.
+ 
+8. Comprar ingrediente, indicando la cantidad a descontar de la existencia. 
+
+9. Eliminar el stock de un ingrediente. 
+
+10. Eliminar un ingrediente porque no estará disponible. 
+
+11. Implementar test cases representativos de la totalidad de las funcionalidades 
+requeridas.
